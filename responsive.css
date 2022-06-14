@@ -1,0 +1,226 @@
+@media(max-width:400px){
+    .container-footer .col{
+        max-width: none;
+    }
+    .slide .btn-slide{
+        font-size: 6px;
+    }
+    .text-left{
+        font-size: 12px;
+    }
+    .title h1{
+    font-size: 25px;
+   }
+    .title img{
+        width: 200px;
+    }
+    .intro-info p,.text-blog>p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .text-blog h3{
+        font-size: 18px;
+    }
+}
+@media (max-width: 992px) {
+    .menu a:not(.icon){display: none;}
+    .icon{
+        display: block;
+    }
+    .container-menu-item .img-item {
+        width: 120px;
+    }
+    .menu.responsive a {
+        display: block;
+        text-align: left;
+    }
+    .menu.responsive a.icon{
+        text-align: right;
+    }
+    .od1{
+        order: 1;
+    }
+    .content-blog{
+        grid-template-columns: 100%;
+    }
+    .text-blog h3{
+        line-height: normal;
+    }
+}
+@media (max-width: 479px){
+    .hide{
+        display: none;
+    }
+    .text-item p{
+        font-size: 10px;
+    }
+    .col-left{
+        padding: 50% 1%;
+    }
+    .col-left h2 {
+        font-size: 25px;
+    }
+    .col-left p {
+        font-size: 12px;
+        padding: 2%;
+    }
+    .container-login{
+        margin: 0;
+    }
+    .resp>input,.resp>button{
+        font-size: 12px;
+        width: 100%;
+        padding: 6px;
+        border: 1px solid #dddfe2;
+        color: #1d2129;
+        border-radius: 6px;
+    }
+    .resp>button{
+        cursor: pointer;
+        color: white;
+        border: none;
+    }
+
+}
+@media (min-width: 576px)  {
+    .wrapper{
+        max-width: 540px;
+    }
+    .col-2-details{
+        padding: 16px 4px;
+    }
+}
+@media (min-width: 768px) {
+    .wrapper{
+        max-width: 720px;
+    }
+    .main-blog img{
+        padding: 0;
+    }
+    .container-footer .col-1{
+        display: block;
+    }
+    #logo a>i{
+        margin-top: 2rem;
+    }
+    .slide .btn-slide{
+        font-size: 18px;
+        padding: 12px;
+    }
+    .container-blog h2{
+        margin: 40px;
+        font-size: 35px;
+    }
+    nav ul>li a{
+        padding: 8px 25px;
+    }
+    .right{
+        padding:0 15% 0 0; 
+    }
+    .product{
+        display: grid;
+        grid-template-columns: 47% 47%;
+        grid-gap: 6%;
+    }
+    .grid-relate{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+@media (min-width: 993px) {
+    .wrapper{
+        max-width: 960px;
+    }
+    
+    .blog{
+        margin: 40px 0 0 0;
+    }
+    .menu .menu-lv2{
+        position: absolute;
+        top: 91px;
+        background: rgba(255, 255, 255, 0.8);
+        width: 200px;
+    }
+    nav ul.menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul>li>a{
+    padding: 35px 25px;
+    font-size: 21px;
+    border: none;
+    }
+    .best-seller .container h2{
+        font-size: 35px;
+    }
+    nav{
+        height: 90px;
+    }
+    .logo-header{
+        padding: 0;
+    }
+    .content-menu{
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+    .content-col-1{
+        display: block;
+    }
+    .content-col-2{
+        padding: 16px 32px 16px 16px;
+    }
+    .product{
+        margin: 80px 80px 0;
+    }
+    .relate-product{
+        margin: 0 80px;
+    }
+    .size{
+        display: inline-block;
+    }
+    .col-left{
+        padding: 15% 1%;
+    }
+    .col-left h2{
+        font-size: 70px;
+    }
+    .col-left p{
+        font-size: 30px;
+        padding: 2%;
+    }
+    .resp>input,.resp>button{
+        width: 90%;
+    }
+}
+@media (min-width: 1200px) {
+    .wrapper{
+        max-width: 1440px;
+    }
+    nav ul.menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-blog{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container-menu-item .item {
+        margin: 0 40px 40px;
+        flex: calc(25% - 80px);       
+    }
+    .container-menu-item .img-item{
+        width: 100%;
+        max-width: 250px;
+    }
+    .main-blog #text-blog{
+        font-size: 21px;
+        padding: 40px;
+    }
+    .item-blog{
+        padding: 40px;
+    }
+    .content-login{
+        padding: 160px 100px;
+    }
+    
+}

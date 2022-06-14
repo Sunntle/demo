@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-size: 16px;
+    font-family: 'SF Pro Text', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #A1A7A7;    
+}
+nav{
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: relative;
+}
+nav ul>li>a{
+    font-size: 16px;
+    display: block;
+    padding: 8px;
+    font-weight: 600;
+    color: black;
+}
+nav ul li a:hover{
+    color: #12620B;
+    transition-duration: 0.5s;
+
+}
+nav a img{
+    max-width: 80px;
+    height: auto;
+    padding: 2px 0;
+}
+.logo-header{
+    padding-left: 5%;
+}
+.ti-angle-down:before{
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-style: normal;
+    margin: 0;
+    font-size: 12px;
+}
+.menu .menu-lv2{
+    max-width: 200px;
+    display: none;
+}
+.menu .menu-lv2 a{  
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-bottom: 1px solid rgba(98, 96, 96, 0.241);
+}
+nav ul li:hover>ul.menu-lv2{
+    display: block;
+}
+ul.menu-lv2 li:hover>.menu-lv3{
+    display: block;
+}
+.menu-lv2 li{
+    position: relative;
+}
+.menu-lv2 li .menu-lv3{
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 150px;
+    display: none;
+}
+.icon{
+    display: none;
+    padding: 37px 0 0 0;
+    border: none;
+    background-color: none;
+}
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000D9;
+    padding: 16px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.container-footer .col{
+    max-width: 25%;
+    margin: 5px 25px;
+}
+.container-footer .col-1{
+    display: none;
+}
+.container-footer .col ul li{
+    padding: 4px;
+}
+li h5 a{
+    font-size: 16px!important;
+}
+.container-footer .col ul li a{
+    color: white;
+    font-size: 14px;
+}
+#logo a>i{
+    color: white;
+    
+}
+.slide img{
+    width: 100%;
+}
+.slide {
+    position: relative;
+}
+.slide .btn-slide{
+    position: absolute;
+    top:80%;
+    left:10%;
+    font-size: 12px;
+    padding: 6px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    background-color: #05250C;
+}
+.slide .btn-slide a{
+    color: #C4C4C4;
+}
+.best-seller{
+    margin-top: 5%;
+}
+.best-seller .container h2{
+    text-align: center;
+    margin: 40px 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+.container-menu-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-menu-item .item {
+    margin: 0 20px 40px;
+    flex: calc(25% - 40px);
+    text-align: center;
+    
+}
+.container-menu-item .img-item{
+    display: inline-block;
+    background-color: #F5DFC4;
+    border-radius: 30px;
+    box-shadow: 0px 1px 6px 0px #888888;
+}
+.container-menu-item .img-item img{
+    width: 100%;
+}
+.container-menu-item .text-item{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+.container-menu-item .text-item span{
+    font-weight: 600;
+}
+.blog{
+    background-image: url(img/background2.jpg);
+    background-repeat: no-repeat;
+    margin: 40px 55px 0px 55px;
+}
+.main-blog{
+    display: block;
+}
+.item-blog{
+    display: inline-block;
+    flex: 50%;
+    margin-bottom: 5%;
+}
+.blog{
+    margin-top:40px;
+}
+.container-blog h2{
+    text-align: center;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #12620B;
+}
+.main-blog img{
+    width: 100%;
+    padding: 0px;
+    border-radius: 39px;
+}
+.main-blog #text-blog{
+    font-size: 16px;
+}
+#text-blog p{
+    margin: 16px 0;
+}
+.item-blog .btn-blog{
+    font-size: 21px;
+    padding: 8px 16px;
+    background: none;
+    border: 1px solid #12620B;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.btn-blog a{
+    color: #12620B;
+}

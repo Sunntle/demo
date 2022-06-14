@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Roboto+Serif:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo-header">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <ul class="menu" id="mymenu">
+                    <li><a href="javascript:void(0)" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a></li>
+                    <li><a href="blog.html" title="Cà phê">Cà phê
+                            <i class="ti-angle-down"></i>
+                        </a>
+                        <ul class="menu-lv2">
+                            <li><a href="blog.html" title="Hành trình tách cà phê đậm vị">Hành trình tách cà
+                                    phê đậm vị</a></li>
+                            <li><a href="#" title="Hạt cà phê">Hạt cà phê</a></li>
+                            <li><a href="#" title="Nghệ thuật pha chế">Nghệ thuật pha chế</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="Trà">Trà <i class="ti-angle-down"></i></a>
+                        <ul class="menu-lv2">
+                            <li><a href="#" title="Hành trình tách trà đậm vị">Hành trình tách trà đậm vị</a></li>
+                            <li><a href="#" title="Lá trà">Lá trà</a></li>
+                            <li><a href="#" title="Cold Brew Tea - Trà ủ lạnh - Phong cách trà mới">Cold Brew Tea - Trà
+                                    ủ lạnh - Phong cách trà mới</a></li>
+                            <li><a href="#" title="Nghệ thuật pha chế">Nghệ thuật pha chế</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="menu.html" title="Menu">Menu</a>
+                    </li>
+                    </li>
+                    <li><a href="#" title="Giỏ hàng">Giỏ hàng</a></li>
+                    <li><a href="login.html" title="Đăng nhập">Đăng nhập</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+        <section class="product">
+            <div class="left">
+                <div class="img-product"><img src="img/cfdenda-espresso.png" alt=""></div>
+                <div class="text-left cor">
+                    <p>Không ngọt ngào như Bạc sỉu hay Cà phê sữa, Cà phê đen mang trong mình phong vị trầm lắng, thi vị
+                        hơn. Người ta thường phải ngồi rất lâu mới cảm nhận được hết hương thơm ngào ngạt, phảng phất
+                        mùi cacao và cái đắng mượt mà trôi tuột xuống vòm họng.</p>
+                </div>
+            </div>
+            <div class="right">
+                <span class="name-product">Cà phê đen đá</span>
+                <div class="price-product pad">
+                    <span>45.000đ</span>
+                    <input type="number" name="amount" step="1" min="1">
+                </div>
+                <div class="note pad">
+                    <textarea name="note" id="note" cols="30" rows="2" placeholder="Ghi chú thêm tại đây"></textarea>
+                </div>
+                <div class="details-product pad">
+                    <span class="option-text cor">CHỌN SIZE (BẮT BUỘC)</span>
+                    <form action="" class="pad-15">
+                        <div class="size"><input type="radio" name="size" value="Lớn">Lớn<span class="cor">(+ 13.000đ)</span></div>
+                        <div class="size"><input type="radio" name="size" value="Vừa">Vừa<span class="cor">(+ 6.000đ)</span></div>
+                        <div class="size"><input type="radio" name="size" value="Nhỏ">Nhỏ<span class="cor">(+ 0đ)</span></div>
+                    </form>
+                </div>
+                <div class="details-product pad">
+                    <span class="option-text cor pad-15">CHỌN TOPPING (TÙY CHỌN)</span>
+                    <div class="option pad-15">
+                        <div class="left-option">
+                            <span class="name cor">Kem Phô Mai Macchiato</span>
+                            <br>
+                            <span class="price">+ 10.000đ</span>
+                        </div>
+                        <div class="right-option">
+                            <input type="number" name="amount" step="1" min="0">
+                        </div>
+                    </div>
+                    <div class="option pad-15">
+                        <div class="left-option">
+                            <span class="name cor">Shot Espresso</span>
+                            <br>
+                            <span class="price">+ 10.000đ</span>
+                        </div>
+                        <div class="right-option">
+                            <input type="number" name="amount" step="1" min="0">
+                        </div>
+                    </div>
+                    <div class="option pad-15">
+                        <div class="left-option">
+                            <span class="name cor">Trân châu trắng</span>
+                            <br>
+                            <span class="price">+ 10.000đ</span>
+                        </div>
+                        <div class="right-option">
+                            <input type="number" name="amount" step="1" min="0">
+                        </div>
+                    </div>
+                    <div class="option pad-15">
+                        <div class="left-option">
+                            <span class="name cor">Sốt Caramel</span>
+                            <br>
+                            <span class="price">+ 10.000đ</span>
+                        </div>
+                        <div class="right-option">
+                            <input type="number" name="amount" step="1" min="0">
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-add pad">
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+        </section>
+        <section class="relate-product">
+            <h3 class="cor">Sản phẩm liên quan</h3>
+            <div class="grid-relate">
+                <div class="details-relate">
+                    <div class="img"><a href="#"><img src="img/ca-phe-sua-da-removebg-preview.png" alt=""></a></div>
+                    <div class="text">
+                        <p>Cà phê sữa</p>
+                    </div>
+                </div>
+                <div class="details-relate">
+                    <div class="img"><a href="#"><img src="img//bac-siu.png" alt=""></a></div>
+                    <div class="text">
+                        <p>Bạc sỉu</p>
+                    </div>
+                </div>
+                <div class="details-relate hide">
+                    <div class="img"><a href="#"><img src="img/americano.png" alt=""></a></div>
+                    <div class="text">
+                        <p>Americano</p>
+                    </div>
+                </div>
+                <div class="details-relate hide">
+                    <div class="img"><a href="#"><img src="img/caramel.png" alt=""></a></div>
+                    <div class="text">
+                        <p>Caramel Macchiato</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-footer">
+                <div class="col col-1">
+                    <ul>
+                        <li>
+                            <h5><a href="#">Giới thiệu</a></h5>
+                        </li>
+                        <li><a href="#">Về chúng tôi</a></li>
+                        <li><a href="#">Khuyến mãi</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Sản phẩm</a></li>
+                    </ul>
+                </div>
+                <div class="col col-1">
+                    <ul>
+                        <li>
+                            <h5><a href="#">Điều khoản</a></h5>
+                        </li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Quy tắc bảo mật</a></li>
+                    </ul>
+                </div>
+                <div class="col col-1">
+                    <ul>
+                        <li>
+                            <h5><a href="#">Đặt hàng: 1800 1155</a></h5>
+                        </li>
+                        <li>
+                            <h5><a href="#" title="Lien he">Liên hệ</a></h5>
+                        </li>
+                        <li>
+                            <a href="#">Tầng 3-4 Hub Building
+                                195/10E Điện Biên Phủ, P.15,
+                                Q.Bình Thạnh, TP.Hồ Chí Minh</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col" id="logo">
+                    <a href="#"><i class="fa-brands fa-facebook-square fa-xl"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mymenu");
+            if (x.className === "menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
+        }
+    </script>
+</body>
+
+</html>

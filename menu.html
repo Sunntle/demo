@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Roboto+Serif:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="logo-header">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <ul class="menu" id="mymenu">
+                    <li><a href="javascript:void(0)" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a></li>
+                    <li><a href="blog.html" title="Cà phê">Cà phê
+                            <i class="ti-angle-down"></i>
+                        </a>
+                        <ul class="menu-lv2">
+                            <li><a href="blog.html" title="Hành trình tách cà phê đậm vị">Hành trình tách cà
+                                    phê đậm vị</a></li>
+                            <li><a href="#" title="Hạt cà phê">Hạt cà phê</a></li>
+                            <li><a href="#" title="Nghệ thuật pha chế">Nghệ thuật pha chế</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" title="Trà">Trà <i class="ti-angle-down"></i></a>
+                        <ul class="menu-lv2">
+                            <li><a href="#" title="Hành trình tách trà đậm vị">Hành trình tách trà đậm vị</a></li>
+                            <li><a href="#" title="Lá trà">Lá trà</a></li>
+                            <li><a href="#" title="Cold Brew Tea - Trà ủ lạnh - Phong cách trà mới">Cold Brew Tea - Trà
+                                    ủ lạnh - Phong cách trà mới</a></li>
+                            <li><a href="#" title="Nghệ thuật pha chế">Nghệ thuật pha chế</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="menu.html" title="Menu">Menu</a>
+                    </li>
+                    <li><a href="#" title="Giỏ hàng">Giỏ hàng</a></li>
+                    <li><a href="login.html" title="Đăng nhập">Đăng nhập</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="content-menu">
+            <div class="content-col-1">
+                <div class="col-1 coffee">
+                    <h4 class="text-col-1">Cà phê</h4>
+                    <ul>
+                        <li class="item-col-1"><a href="">Cà phê phin đen</a></li>
+                        <li class="item-col-1"><a href="">Cà phê sữa đá</a></li>
+                        <li class="item-col-1"><a href="">Capuchino</a></li>
+                        <li class="item-col-1"><a href="">Bạc sỉu</a></li>
+                        <li class="item-col-1"><a href="">Caramel Macchiato</a></li>
+                        <li class="item-col-1"><a href="">Latte</a></li>
+                        <li class="item-col-1"><a href="">Americano</a></li>
+                        <li class="item-col-1"><a href="">Espresso</a></li>
+                        <li class="item-col-1"><a href="">Cà Phê Đá Xay-Lạnh</a></li>
+                    </ul>
+                </div>
+                <div class="col-1 tea">
+                    <h4 class="text-col-1">Trà</h4>
+                    <ul>
+                        <li class="item-col-1"><a href="#tea">Trà Đào Cam Sả</a></li>
+                        <li class="item-col-1"><a href="#tea">Trà Hạt Sen</a></li>
+                        <li class="item-col-1"><a href="#tea">Trà Đen Macchiato</a></li>
+                        <li class="item-col-1"><a href="#tea">Hồng Trà Latte Macchiato</a></li>
+                        <li class="item-col-1"><a href="#tea">Trà vải</a></li>
+                    </ul>
+                </div>
+                <div class="col-1 food">
+                    <h4 class="text-col-1">Đồ ăn</h4>
+                    <ul>
+                        <li class="item-col-1"><a href="#food">Bánh mì que Pate</a></li>
+                        <li class="item-col-1"><a href="#food">Bánh mì thịt nguội</a></li>
+                        <li class="item-col-1"><a href="#food">Mousse Gấu Chocolate</a></li>
+                        <li class="item-col-1"><a href="#food">Mochi Kem Phúc Bồn Tử</a></li>
+                        <li class="item-col-1"><a href="#food">Mochi Kem Việt Quất</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content-col-2">
+                <div class="col-2-title">
+                    <h1>Menu</h1>
+                </div>
+                <div class="col-2-container">
+                    <h2 class="title-col-2">Cà phê</h2>
+                    <div class="col-2 coffee">
+                        <div class="col-2-details">
+                            <div class="img-item"><a href="details-item.html"><img src="img/ca-phe-den-da-removebg-preview.png"
+                                        alt=""></a></div>
+                            <div class="text-item">
+                                <p>Cà phê phin đen</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/ca-phe-sua-da-removebg-preview.png"
+                                        alt=""></a></div>
+                            <div class="text-item">
+                                <p>Cà phê sữa đá</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/Capuchino.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Capuchino</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/bac-siu.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Bạc sỉu</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/caramel.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Caramel Macchiato</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/latte-da-.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Latte</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/bac-siu.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Americano</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/bac-siu.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Espresso</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/bac-siu.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Cà Phê Đá Xay</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2-container" id="tea">
+                    <h2 class="title-col-2">Trà</h2>
+                    <div class="col-2 coffee">
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/tra-dao-cam-xa.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Trà đào cam sả</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/tra-sen.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Trà hạt sen</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/tra-den-matchiato.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Trà đen Macchiato</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/hong-tra-latte.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Hồng trà Latte Macchiato</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/travai.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Trà vải</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2-container"id="food">
+                    <h2 class="title-col-2" >Đồ ăn</h2>
+                    <div class="col-2 coffee">
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/banhmique.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Bánh mì que Pate</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/banh-mi-vietnam.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Bánh mì thịt nguội</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/gau.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Mousse Gấu Chocolate</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/mochi-phucbontu-.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Mochi Kem Phúc Bồn Tử</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                        <div class="col-2-details">
+                            <div class="img-item"><a href=""><img src="img/mochi-vietquat.png" alt=""></a></div>
+                            <div class="text-item">
+                                <p>Mochi Kem Việt Quất</p>
+                            </div>
+                            <button class="btn-buy"><a href="details-item.html">Mua ngay</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-footer">
+                <div class="col col-1">
+                    <ul>
+                        <li>
+                            <h5><a href="#">Giới thiệu</a></h5>
+                        </li>
+                        <li><a href="#">Về chúng tôi</a></li>
+                        <li><a href="#">Khuyến mãi</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Sản phẩm</a></li>
+                    </ul>
+                </div>
+                <div class="col col-1">
+                    <ul>
+                        <li>
+                            <h5><a href="#">Điều khoản</a></h5>
+                        </li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Quy tắc bảo mật</a></li>
+                    </ul>
+                </div>
+                <div class="col col-1">
+                    <ul>
+                        <li>
+                            <h5><a href="#">Đặt hàng: 1800 1155</a></h5>
+                        </li>
+                        <li>
+                            <h5><a href="#" title="Lien he">Liên hệ</a></h5>
+                        </li>
+                        <li>
+                            <a href="#">Tầng 3-4 Hub Building
+                                195/10E Điện Biên Phủ, P.15,
+                                Q.Bình Thạnh, TP.Hồ Chí Minh</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col" id="logo">
+                    <a href="#"><i class="fa-brands fa-facebook-square fa-xl"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter fa-xl"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mymenu");
+            if (x.className === "menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
+        }
+    </script>
+</body>
+
+</html>

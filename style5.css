@@ -1,0 +1,48 @@
+.slide-coffee{
+    background-color: #F4E4DA;
+}
+.content{
+    padding: 5%;
+}
+.img-slide img{
+    max-width: 100%;
+}
+.slide-coffee .title{
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+}
+.title h1{
+    font-weight: 500;
+    font-size: 36px;
+    color: #12620B;
+    padding-bottom: 1%;
+}
+.title img{
+    width: 300px;
+}
+.intro-info{
+    padding: 5% 10%;
+    text-align: justify;
+}
+.content-blog{
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-gap: 2%;
+    align-items: center;
+}
+.text-blog{
+    line-height: 22px;
+}
+.text-blog h3{
+    font-size: 22px;
+    padding: 2% 0;
+}
+.text-blog p{
+    padding:0 5% 10% 0;
+}
+.img-blog img{
+    width: 100%;
+    border-radius: 15px;
+    max-height: 350px;
+}

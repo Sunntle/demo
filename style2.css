@@ -1,0 +1,81 @@
+.content-menu{
+    display: block;
+}
+.content-col-1{
+    display: none;
+}
+
+.content-col-1>.col-1 {
+    padding: 16px 0 0 72px;
+}
+.col-1 h4{
+    font-size: 1.25rem;
+}
+.col-1 .item-col-1{
+    margin: 16px 0;
+}
+.col-1 ul .item-col-1 a{
+    color: rgba(43, 41, 41, 0.77);
+}
+.content-col-2{
+    padding: 16px;
+}
+.col-2-title{
+    font-size: 1.3rem;
+}
+.col-2-container .title-col-2{
+    padding: 32px 0 16px 0;
+    border-bottom: 1px solid rgba(110, 107, 107, 0.77);
+    margin-bottom: 16px;
+}
+.col-2{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap:2%;
+}
+.col-2-details{
+    padding: 8px 4px;
+    transition: .5s;
+    position: relative;
+}
+.btn-buy{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    width: 98%;
+    padding: 3%;
+    cursor: pointer;
+    background-color: #595858fd;
+    color: white;
+}
+button a{
+    color: white;
+}
+.col-2-details .img-item{
+    display: inline-block;
+    background-color: #F5DFC4;
+    border-radius: 30px;
+    box-shadow: 0px 1px 6px 0px #888888;
+}
+.col-2-details:hover{
+    transform: scale(1.05);
+}
+.col-2-details:hover .btn-buy{
+    display: block;
+}
+.col-2-details .img-item img{
+    width: 100%;
+}
+.col-2-details .text-item{
+    padding: 16px 8px;
+}
+.text-item p{
+    padding: 4px;
+    font-weight: 600;
+    text-align: center;
+}
+.text-item span{
+    padding: 4px;
+    display: inline-block;
+}
